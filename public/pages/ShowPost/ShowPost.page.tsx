@@ -121,7 +121,8 @@ export default class ShowPostPage extends React.Component<ShowPostPageProps, Sho
 
                   <span className="text-muted">
                     <Trans id="showpost.label.author">
-                      Posted by <UserName user={this.props.post.user} /> &middot; <Moment locale={Fider.currentLocale} date={this.props.post.createdAt} />
+                      Posted by 🥸 
+                       {/* <UserName user={this.props.post.user} /> &middot; <Moment locale={Fider.currentLocale} date={this.props.post.createdAt} /> */}
                     </Trans>
                   </span>
                 </div>
